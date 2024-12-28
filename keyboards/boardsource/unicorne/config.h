@@ -5,6 +5,13 @@
 #define MASTER_RIGHT 
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
 
+// Settings below will allow PC to detect keyboard on startup
+#define SPLIT_USB_DETECT
+#define SPLIT_USB_TIMEOUT 2000
+#define SPLIT_USB_TIMEOUT_POLL 10
+#define SPLIT_WATCHDOG_ENABLE
+#define SPLIT_WATCHDOG_TIMEOUT 3000
+
 #define I2C_DRIVER I2CD1
 #define I2C1_SDA_PIN GP22
 #define I2C1_SCL_PIN GP23
