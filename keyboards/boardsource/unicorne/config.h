@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #pragma once
 
+#define MASTER_RIGHT 
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
 
 #define I2C_DRIVER I2CD1
